@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  overflow-x: hidden;
+}
+body {
+  background: linear-gradient(45deg, rgb(122, 122, 187), red);
+}
+header {
+  background-color: rgb(231, 93, 93);
+    width: 100vw;
+  height: 150px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  width: 100vw;
+    background-color: rgb(231, 93, 93);
+}
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+header nav ul li a{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.capa {
+  background-image: url("./capa-pizza.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.capa h1 {
+  font-size: 4rem;
+  color: red;
+  text-align: center;
+}
+.sobre {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.sobre h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 50px auto;
+
+}
+.titulocent {
+    text-align: center;
+  font-size: 3rem;
+  margin: 40px auto;
+color: white;
+}
+.sobre p {
+  max-width: 900px;
+}
+.imgs {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px auto;
+
+}
+.img-pizza {
+  width: 350px;
+  height: 200px;
+    margin: 20px auto;
+border-radius: 20px;
+}
+.pizzacard {
+  width: 60px;
+  height: 30px;
+}
+table {
+  border: 2px solid white;
+  width: 100%;
+  height: 100%;
+  margin: 70px auto;
+}
+table td {
+    border: 2px solid white;
+      height: 50px;
+  text-align: center;
+  color: white;
+
+}
+.pedidos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  color: white;
+}
+.hoje {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  height: 270px;
+  flex-direction: column;
+    margin: 20px auto;
+
+
+}
+.pizza-ped {
+  width: 300px;
+}
+.contatos {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid red;
+  border-radius: 20px;
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  padding: 30px;
+}
+form input {
+  width: 90%;
+  height: 90px;
+  margin: 10px auto;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  border: none;
+}
+form input::placeholder {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+textarea::placeholder {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+textarea {
+    width: 90%;
+  margin: 10px auto;
+  background-color: black;
+color: white;
+  height: 90px;
+border: none;
+font-size: 2rem;
+}
+footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(231, 93, 93);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ctts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin: 10px;
+}
+.ctts h3 {
+  margin: 10px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  header nav ul li a{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  font-size: 1.5rem;
+}
+.imgs {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.pedidos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100vw;
+}
+
+
+
+}
